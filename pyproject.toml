@@ -1,0 +1,39 @@
+[project]
+name = "my_project"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = ""
+authors = ["Gavin Noronha <gavinln@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+black = {extras = ["jupyter"], version = "^22.3.0"}
+flake8 = "^4.0.1"
+mypy = "^0.961"
+python-lsp-server = "^1.4.1"
+pylsp-mypy = "^0.5.8"
+vulture = "^2.4"
+pre-commit = "^2.19.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["maturin>=0.12,<0.13"]
+build-backend = "maturin"
+
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+
+[tool.mypy]
+ignore_missing_imports = true
+check_untyped_defs = true
