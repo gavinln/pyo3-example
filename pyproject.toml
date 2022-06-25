@@ -1,6 +1,6 @@
 [project]
 name = "my_project"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
@@ -14,7 +14,7 @@ description = ""
 authors = ["Gavin Noronha <gavinln@hotmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.9,<3.11"
 black = {extras = ["jupyter"], version = "^22.3.0"}
 flake8 = "^4.0.1"
 mypy = "^0.961"
@@ -25,6 +25,7 @@ pre-commit = "^2.19.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
+maturin = "^0.12.20"
 
 [build-system]
 requires = ["maturin>=0.12,<0.13"]
