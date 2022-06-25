@@ -74,3 +74,7 @@ cargo test
 Calling [Rust from Python][910] using PyO3
 
 [910]: http://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/
+
+[From Python to Rust][920]
+
+[920]: https://betterprogramming.pub/from-python-to-rust-some-key-differences-and-takeaways-151da8293b9a
