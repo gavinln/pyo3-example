@@ -6,6 +6,10 @@ Example of a PyO3 project integrating Python and Rust.
 
 ## Setup the project
 
+### Setup pre-commit
+
+https://pre-commit.com/
+
 ### Create a new project with maturin
 
 1. Install maturin
@@ -39,6 +43,26 @@ Make sure that the following rust tools are in the path
 ```
 rust-analyzer --version
 rustfmt --version
+```
+
+### Build the Python module
+
+```
+maturin develop
+```
+
+## Test project
+
+1. Run test Python files
+
+```
+make pytest
+```
+
+2. Run test Rust files
+
+```
+cargo test
 ```
 
 ## Links
