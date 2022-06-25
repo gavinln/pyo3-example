@@ -78,3 +78,11 @@ Calling [Rust from Python][910] using PyO3
 [From Python to Rust][920]
 
 [920]: https://betterprogramming.pub/from-python-to-rust-some-key-differences-and-takeaways-151da8293b9a
+
+[Nine rules][930] for Python extensions in Rust
+
+[930]: https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29
+
+[Python-numpy with Rust-ndarray][940]
+
+[940]: https://itnext.io/how-to-bind-python-numpy-with-rust-ndarray-2efa5717ed21
